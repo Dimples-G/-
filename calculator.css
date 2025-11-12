@@ -1,0 +1,57 @@
+html,body{
+               height:100%;
+               margin:0;
+            }
+            body{
+                display:flex;
+                align-items: center;
+                justify-content:center;
+            }
+            .cal{
+                display:flex;
+                flex-direction:column;
+                background-color: azure;
+                padding:18px;
+                border :2px double rgba(0,0,0,0.5);
+                border-radius:6px;
+            }
+            .font1{
+                font-size:30px;
+                font-weight:100;
+                color:rgb(85, 111, 135);
+                border:2px solid rgb(247, 221, 92);
+                height:60px;
+                width:269px;
+                border-radius:5px;
+                background-color: beige;
+            }
+            .box{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                max-width:100px;
+                max-height:700px;
+                gap:10px;
+            }
+            button{
+                height:60px;
+                border-radius:5px;
+                width:60px;
+                border:none;
+                background-color: bisque;
+                box-shadow:0 0 6px rgba(192, 48, 48, 0.528);
+                cursor:pointer;
+            }
+            button:hover{
+                opacity:0.6;
+            }
+            button:active{
+                opacity:0.4;
+            }
+          .number1{
+            margin-top:13px;
+            width:269px;
+            background-color: antiquewhite;
+          }
+          .operator{
+            background-color: blanchedalmond;
+          }
