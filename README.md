@@ -7,17 +7,18 @@
 ## 2.快速开始
 1. 下载 `calculator.html` `calculator.css` `calculator.js` 在同一个文件夹下
 2. 双击 `calculator.html` 快速开始
-## 文件说明
+## 3.文件说明
 | 文件名     |   作用  |
 |:-------------|:-------------|
 |calculator.html|页面结构|
 |calculator.css|样式设计、布局设置|
 |calculator.js|计算逻辑|
-## 运行截图
+## 4.运行截图
 ![截图](calculator.png)
-## 待办
+## 5.待办
 - [ ] 次幂运算
 - [ ] 开方运算
 - [ ] 对数运算
 - [ ] 历史纪录显示
-
+## 6.概述脑图
+<img src="calculator.drawio.svg" width="100%" alt="概括脑图"/>
